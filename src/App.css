@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  background-color:aqua;
+  align-items: center;
+  flex-basis: start;
+  height: 10vh;
+}
+
+.nav > Button{
+  margin-left: 20px;
+}
+
+.nav > a{
+  color: rgba(44, 43, 44, 0.9);
+  text-decoration: none;
+  list-style-type: none;
+  margin: 1.2rem;
+}
+
+.section{
+  display: grid;
+  padding: 10rem 10rem;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+section > a {
+  margin-top: 3rem;
+}
+
+
+.home > h1{
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
